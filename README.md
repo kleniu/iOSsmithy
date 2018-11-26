@@ -1,5 +1,5 @@
 # iOSsmithy
-bench of iOS tests
+bunch of iOS tests
 
 ## iOS001 - Buttons demo
 First trivial iOS app with the single view.
