@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="B6Q-Zk-OSL">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="RootViewController" customModule="Multiple_views_demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTg-m2-Abo">
+                                <rect key="frame" x="16" y="80" width="224" height="32"/>
+                                <state key="normal" title="Press to start First View" image="iconOne">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="firstButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V7X-1T-kXr"/>
+                                    <segue destination="EdM-JM-JnJ" kind="show" id="l6K-Hq-ZSv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKD-Kw-Rlj">
+                                <rect key="frame" x="16" y="128" width="250" height="32"/>
+                                <state key="normal" title="Press to start Second View" image="iconTwo">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="secondButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vUO-Nw-LjJ"/>
+                                    <segue destination="y3t-4a-hMP" kind="show" id="gOP-u8-F9r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2W-C3-Dtb">
+                                <rect key="frame" x="16" y="176" width="231" height="32"/>
+                                <state key="normal" title="Press to start Third View" image="iconThree">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="thirdButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="meG-Gm-qwP"/>
+                                    <segue destination="gQr-nI-IuF" kind="show" id="MBF-y3-4Hl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pKD-Kw-Rlj" secondAttribute="trailing" symbolic="YES" id="4td-PL-s0H"/>
+                            <constraint firstItem="pKD-Kw-Rlj" firstAttribute="leading" secondItem="mTg-m2-Abo" secondAttribute="leading" id="FbS-ML-JWn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="mTg-m2-Abo" secondAttribute="leading" constant="-16" id="Izi-B7-h5M"/>
+                            <constraint firstItem="Z2W-C3-Dtb" firstAttribute="top" secondItem="pKD-Kw-Rlj" secondAttribute="bottom" constant="16" id="QMV-LD-ncv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Z2W-C3-Dtb" secondAttribute="trailing" symbolic="YES" id="Y2A-1b-42u"/>
+                            <constraint firstItem="Z2W-C3-Dtb" firstAttribute="leading" secondItem="pKD-Kw-Rlj" secondAttribute="leading" id="Zyd-WG-aHu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="mTg-m2-Abo" secondAttribute="top" constant="-16" id="ayl-m7-O4Q"/>
+                            <constraint firstItem="pKD-Kw-Rlj" firstAttribute="top" secondItem="mTg-m2-Abo" secondAttribute="bottom" constant="16" id="knQ-lw-89F"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mTg-m2-Abo" secondAttribute="trailing" symbolic="YES" id="ut1-gd-YjO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2c9-30-sIh"/>
+                    <connections>
+                        <outlet property="firstButton" destination="mTg-m2-Abo" id="9kD-Iu-Po8"/>
+                        <outlet property="secondButton" destination="pKD-Kw-Rlj" id="25x-PU-AQb"/>
+                        <outlet property="thirdButton" destination="Z2W-C3-Dtb" id="kjz-kS-MlJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="871" y="-564"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="EDy-Fn-a6Q">
+            <objects>
+                <viewController id="y3t-4a-hMP" customClass="SecondViewController" customModule="Multiple_views_demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fU1-El-2th">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="gwW-ma-Gce"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ngj-UA-7yu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1756" y="-564"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="1gk-94-gBz">
+            <objects>
+                <viewController id="gQr-nI-IuF" customClass="ThirdViewController" customModule="Multiple_views_demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lbi-9H-aVo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="8ZU-ky-vKX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yyf-pG-vux" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1756" y="207"/>
+        </scene>
+        <!--First View Controller-->
+        <scene sceneID="cfZ-90-7SB">
+            <objects>
+                <viewController id="EdM-JM-JnJ" customClass="FirstViewController" customModule="Multiple_views_demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uXN-20-CkA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Pdl-WT-cg9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dAO-BL-XGs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1756" y="-1286"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sJu-uG-3wg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="B6Q-Zk-OSL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4vw-Jh-NeF">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ohU-eS-odE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6yP-Tr-XDN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="-564.46776611694156"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iconOne" width="32.400001525878906" height="32.400001525878906"/>
+        <image name="iconThree" width="32.481201171875" height="32.481201171875"/>
+        <image name="iconTwo" width="32.400001525878906" height="32.400001525878906"/>
+    </resources>
+</document>
