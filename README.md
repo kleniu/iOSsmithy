@@ -1,18 +1,13 @@
 # iOSsmithy
 bench of iOS tests
 
-## iOS001 - Buttons demo
-First trivial iOS app with the single view.
+## iOS003 - Multiple views with args
+Similar to iOS002 but this time with passing arguments between View Controller classes.
 
-topics:
-- single view app
-- IBOutlet for interacting with UI components
-- IBOutlet for button click response
-- overriding app state methods: viewWillAppear, viewDidAppear, viewDidLoad
-- disabling UI components with viewDidLoad
-- Main.storyboard “ctrl+mouse drag” for creating IBOutlet and IBOutlet via Assistant Editor 
-- Icons in Assets
-- Simple AutoLayout
+topic:
+ - multiple views using UINavigationController added by Editor->Embed In->Navigation Controller menu item. *never ever use other method to add navigation controller*
+ - some test with UITextField and on screen keyboard show/hide procedure
+ _TODO: segue via code_
 
 ## iOS002 - Multiple views
 Second trivial app - this time with multiple views but without passing arguments between View Controller classes.
@@ -28,3 +23,17 @@ topic:
 - assigning the new class source code file for newly created views
  1. New->File (iOS, Cocoa Touch Class) + do not select “create XIB file” + subclass of UIViewController
  2. Using “Identity Inspector” change class name to the new class
+
+## iOS001 - Buttons demo
+First trivial iOS app with the single view.
+
+topics:
+- single view app
+- IBOutlet for interacting with UI components
+- IBOutlet for button click response
+- overriding app state methods: viewWillAppear, viewDidAppear, viewDidLoad
+- disabling UI components with viewDidLoad
+- Main.storyboard “ctrl+mouse drag” for creating IBOutlet and IBOutlet via Assistant Editor 
+- Icons in Assets
+- Simple AutoLayout
+
