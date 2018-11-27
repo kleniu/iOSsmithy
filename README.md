@@ -1,5 +1,5 @@
 # iOSsmithy
-bench of iOS tests
+bunch of iOS tests
 
 ## iOS003 - Multiple views with args
 Similar to iOS002 but this time with passing arguments between View Controller classes.
