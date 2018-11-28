@@ -5,9 +5,10 @@ bunch of iOS tests
 Similar to iOS002 but this time with passing arguments between View Controller classes.
 
 topic:
- - multiple views using UINavigationController added by Editor->Embed In->Navigation Controller menu item. *never ever use other method to add navigation controller*
- - some test with UITextField and on screen keyboard show/hide procedure
- _TODO: segue via code_
+- multiple views using UINavigationController added by Editor->Embed In->Navigation Controller menu item. *never ever use other method to add navigation controller*
+- some test with UITextField and on screen keyboard show/hide procedure
+- create segue to be controlled via code by removing segue from storyboard and creating the new one dragging from one view controller to destination view controller (pick “show” and don’t forget to name it using tribute inspector)
+- trigger segue in code with *performSeque* and customize code in *prepare* method
 
 ## iOS002 - Multiple views
 Second trivial app - this time with multiple views but without passing arguments between View Controller classes.

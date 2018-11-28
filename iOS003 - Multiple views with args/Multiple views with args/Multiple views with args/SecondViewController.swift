@@ -10,10 +10,13 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    var paramSender: String = ""
+    var paramToSend: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        print("Second view did load")
+        print("Second view did load. paramSender=\(paramSender); paramToSend=\(paramToSend)")
     }
     
 

@@ -40,7 +40,6 @@
                                 </state>
                                 <connections>
                                     <action selector="firstButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pBH-8U-6iX"/>
-                                    <segue destination="1oe-aQ-tys" kind="show" id="OB5-X0-mWi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THZ-YR-tjJ">
@@ -50,7 +49,6 @@
                                 </state>
                                 <connections>
                                     <action selector="secondButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XfO-mb-ziJ"/>
-                                    <segue destination="XP6-V0-9XX" kind="show" id="RjN-Ar-Saw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -75,6 +73,8 @@
                         <outlet property="firstButton" destination="198-ou-9jE" id="nta-Ew-htR"/>
                         <outlet property="secondButton" destination="THZ-YR-tjJ" id="Pdd-KB-YkI"/>
                         <outlet property="textField" destination="FAo-ga-hXG" id="f4T-Ow-NSJ"/>
+                        <segue destination="1oe-aQ-tys" kind="show" identifier="firstViewSegue" id="LZY-qe-wtt"/>
+                        <segue destination="XP6-V0-9XX" kind="show" identifier="secondViewSegue" id="Nkh-aL-rSA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

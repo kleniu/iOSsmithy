@@ -9,11 +9,14 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    
+    var dataSender: String = ""
+    var dataToSend: String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        print("First view did load")
+        print("First view did load. dataSender=\(dataSender); dataToSend=\(dataToSend)")
     }
     
 
