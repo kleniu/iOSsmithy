@@ -1,6 +1,17 @@
 # iOSsmithy
 bunch of iOS tests
 
+## iOS004 - StackViews and dialogs
+Test of common alert dialogs and demo of StackViews
+
+topics:
+- Vertical and Horisontal StackViews 
+- StackViews atribute inspector: Alignment=fill Distribution=Fill Equally
+- _UIAlertAction_ _UIAlertController_ _present_ sequence to display alerts
+- UIAlertAction.Style: default, cancel, destructive
+- UIAlertController.Style: alert, actionSheet
+
+
 ## iOS003 - Multiple views with args
 Similar to iOS002 but this time with passing arguments between View Controller classes.
 
