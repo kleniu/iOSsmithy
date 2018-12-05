@@ -1,6 +1,16 @@
 # iOSsmithy
 bunch of iOS tests
 
+## iOS005 - Audio Recording
+
+Test audio recording and playback with speed and pitch modifications. 
+
+topics:
+- AVFoundation for audio recording and playback
+- creating extensions for the existing classes
+- enums 
+- action methods for several buttons
+
 ## iOS004 - StackViews and dialogs
 Test of common alert dialogs and demo of StackViews
 
