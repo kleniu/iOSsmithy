@@ -1,15 +1,26 @@
 # iOSsmithy
 bunch of iOS tests
 
+## iOS007 - Simple TableView and Sliders
+Simple TableView to show lines of text, adopting protocols, response to click on cell.
+
+topics:
+- “Table View” (UITableView) - wen placing on the view set all constraints: up, down, left and right
+- “Table View” must have single one (prototype) cell (UITableViewCell) - Create it increasing “Prototype Cells” attribute. DON’T forget to set “identifier” in the attribute inspector.    
+- ctrl+Drag from “Table View” to “View Controller” and choose _outlets_ : “dataSource” and “delegate”
+- create outlet for TableView in your code
+- in the class definition _adopt_ UITableViewDataSource and UITableViewDelegate _protocol_
+
+
 ## iOS006 - Timers, NavBar and ToolBar
 Test of Timer associated with ControllerView. Single View application with ToolBar on the bottom and NavBar on the top.
 
 topics:
- - “Navigation Bar” (UINavigationBar) - provides navigation mechanism just below status bar. It can have Title and navigation items as “Bar Button Item” (UIBarButtonItem)
- - “Bar Button Item” (UIBarButtonItem) - push button that can be added to NavBar and ToolBar
- - “Toolbar” (UIToolbar) - bar on the bottom of the view
- - “Flexible space” - handful for auto adjust the space between buttons on the ToolBar
- - Timer.scheduledTimer to count tics 
+- “Navigation Bar” (UINavigationBar) - provides navigation mechanism just below status bar. It can have Title and navigation items as “Bar Button Item” (UIBarButtonItem)
+- “Bar Button Item” (UIBarButtonItem) - push button that can be added to NavBar and ToolBar
+- “Toolbar” (UIToolbar) - bar on the bottom of the view
+- “Flexible space” - handful for auto adjust the space between buttons on the ToolBar
+- Timer.scheduledTimer to count tics 
 
 ## iOS005 - Audio Recording
 Test audio recording and playback with speed and pitch modifications. 
