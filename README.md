@@ -1,8 +1,17 @@
 # iOSsmithy
 bunch of iOS tests
 
-## iOS005 - Audio Recording
+## iOS006 - Timers, NavBar and ToolBar
+Test of Timer associated with ControllerView. Single View application with ToolBar on the bottom and NavBar on the top.
 
+topics:
+ - “Navigation Bar” (UINavigationBar) - provides navigation mechanism just below status bar. It can have Title and navigation items as “Bar Button Item” (UIBarButtonItem)
+ - “Bar Button Item” (UIBarButtonItem) - push button that can be added to NavBar and ToolBar
+ - “Toolbar” (UIToolbar) - bar on the bottom of the view
+ - “Flexible space” - handful for auto adjust the space between buttons on the ToolBar
+ - Timer.scheduledTimer to count tics 
+
+## iOS005 - Audio Recording
 Test audio recording and playback with speed and pitch modifications. 
 
 topics:
