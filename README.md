@@ -1,6 +1,13 @@
 # iOSsmithy
 bunch of iOS tests
 
+## iOS009 - Simple ToDo list
+Dynamic modification of TableView lists. Customized buttons with rounded corners. Deletion of ListView items by swapping cell left. 
+
+topics:
+- Custom buttons: Inspectors->Identity Inspector->User defined Runtime Atibutes (layer.cornerRadius=10; clipsToBounds=true)
+- enable delete by adding func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {…}
+
 ## iOS008 - User Defaults as permanent data storage
 User Defaults to store data from custom class. 
 
