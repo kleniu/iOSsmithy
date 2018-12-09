@@ -1,6 +1,13 @@
 # iOSsmithy
 bunch of iOS tests
 
+## iOS008 - User Defaults as permanent data storage
+User Defaults to store data from custom class. 
+
+topics:
+- Text Field keyboard - is not enough to show the keyboard when using simulator - enable it in the menu
+- using UserDefaults to store: Bool, Float and String values
+
 ## iOS007 - Simple TableView and Sliders
 Simple TableView to show lines of text, adopting protocols, response to click on cell.
 
@@ -47,7 +54,8 @@ Similar to iOS002 but this time with passing arguments between View Controller c
 
 topic:
 - multiple views using UINavigationController added by Editor->Embed In->Navigation Controller menu item. *never ever use other method to add navigation controller*
-- some test with UITextField and on screen keyboard show/hide procedure
+- some test with UITextField and on screen keyboard show/hide procedure - Edit Box Keyboard
+- using Simulator dont forget to enable software keyboard: Hardware->Keyboard->Toggle Software Keyboard
 - create segue to be controlled via code by removing segue from storyboard and creating the new one dragging from one view controller to destination view controller (pick “show” and don’t forget to name it using tribute inspector)
 - trigger segue in code with *performSeque* and customize code in *prepare* method
 
