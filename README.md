@@ -1,6 +1,15 @@
 # iOSsmithy
 bunch of iOS tests
 
+## iOS010 - WebView and REST API GET method
+WebViewKit for displaying Web content. Simple GET and POST methods.
+
+topics:
+- using tuples in the array to select segue when TableView Cell is pressed
+- usage of URLRequest to set HTTP header, httpMethod 
+- creating task for async http request (URLSession.shared.dataTask)  
+- updating UI elements in async task using DispatchQueue.main.sync
+
 ## iOS009 - Simple ToDo list
 Dynamic modification of TableView lists. Customized buttons with rounded corners. Deletion of ListView items by swapping cell left. 
 
