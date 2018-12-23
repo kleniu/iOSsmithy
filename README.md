@@ -1,6 +1,22 @@
 # iOSsmithy
 bunch of iOS tests
 
+## iOS011 - Drawing and custom views
+Using UIView to build custom view for: drawing lines and arcs with Bezier path, placing subviews like UILabel, drawing Images. Some minor code examples describing error handling. Preparing custom views to be displayed on storyboard. Adding attributes to be changed directly from the storyboard.
+
+topics:
+- drawing using Code Graphics (CG) within the context, plus adding stroke and fill color
+- set "Content Mode" attribute to redraw - to force redraw when bounds are changed eg. by switching to landscape
+- forcing  redraw shapes on change class properties using “didSet”
+- clipping view for rounded corners with “addClip”
+- defining attributed strings (attributes: alignment and font)
+- placing sub views like UILabel in the UIView
+- extension for CGPoint just to make additional method “offsetBy”
+- “traitCollectionDidChange” example - trait called when bounds of font size (trait) has been changed 
+- draw an image without using subViews directly within UIView
+- Storyboard integration using @IBDesignable and @IBInspectable
+- drawing images in Storyboard
+
 ## iOS010 - WebView and REST API GET method
 WebViewKit for displaying Web content. Simple GET and POST methods.
 

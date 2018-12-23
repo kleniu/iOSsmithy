@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E129A21721C9550600DA0706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E129A21621C9550600DA0706 /* AppDelegate.swift */; };
+		E129A21921C9550600DA0706 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E129A21821C9550600DA0706 /* RootViewController.swift */; };
+		E129A21C21C9550600DA0706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E129A21A21C9550600DA0706 /* Main.storyboard */; };
+		E129A21E21C9550800DA0706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E129A21D21C9550800DA0706 /* Assets.xcassets */; };
+		E129A22121C9550800DA0706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E129A21F21C9550800DA0706 /* LaunchScreen.storyboard */; };
+		E129A22C21C9550800DA0706 /* Drawing_and_Custom_ViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E129A22B21C9550800DA0706 /* Drawing_and_Custom_ViewsTests.swift */; };
+		E129A23721C9550800DA0706 /* Drawing_and_Custom_ViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E129A23621C9550800DA0706 /* Drawing_and_Custom_ViewsUITests.swift */; };
+		E129A24521C955DA00DA0706 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E129A24421C955DA00DA0706 /* AboutViewController.swift */; };
+		E129A24721C955F400DA0706 /* SimpleDrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E129A24621C955F400DA0706 /* SimpleDrawViewController.swift */; };
+		E129A24921C95F2800DA0706 /* ErrorHandlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E129A24821C95F2800DA0706 /* ErrorHandlingViewController.swift */; };
+		E129A24B21CC1EBF00DA0706 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E129A24A21CC1EBF00DA0706 /* CustomView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E129A22821C9550800DA0706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E129A20B21C9550600DA0706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E129A21221C9550600DA0706;
+			remoteInfo = "Drawing and Custom Views";
+		};
+		E129A23321C9550800DA0706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E129A20B21C9550600DA0706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E129A21221C9550600DA0706;
+			remoteInfo = "Drawing and Custom Views";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E129A21321C9550600DA0706 /* Drawing and Custom Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing and Custom Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E129A21621C9550600DA0706 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E129A21821C9550600DA0706 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		E129A21B21C9550600DA0706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E129A21D21C9550800DA0706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E129A22021C9550800DA0706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E129A22221C9550800DA0706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E129A22721C9550800DA0706 /* Drawing and Custom ViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing and Custom ViewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E129A22B21C9550800DA0706 /* Drawing_and_Custom_ViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_and_Custom_ViewsTests.swift; sourceTree = "<group>"; };
+		E129A22D21C9550800DA0706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E129A23221C9550800DA0706 /* Drawing and Custom ViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing and Custom ViewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E129A23621C9550800DA0706 /* Drawing_and_Custom_ViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_and_Custom_ViewsUITests.swift; sourceTree = "<group>"; };
+		E129A23821C9550800DA0706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E129A24421C955DA00DA0706 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		E129A24621C955F400DA0706 /* SimpleDrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDrawViewController.swift; sourceTree = "<group>"; };
+		E129A24821C95F2800DA0706 /* ErrorHandlingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingViewController.swift; sourceTree = "<group>"; };
+		E129A24A21CC1EBF00DA0706 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E129A21021C9550600DA0706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E129A22421C9550800DA0706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E129A22F21C9550800DA0706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E129A20A21C9550600DA0706 = {
+			isa = PBXGroup;
+			children = (
+				E129A21521C9550600DA0706 /* Drawing and Custom Views */,
+				E129A22A21C9550800DA0706 /* Drawing and Custom ViewsTests */,
+				E129A23521C9550800DA0706 /* Drawing and Custom ViewsUITests */,
+				E129A21421C9550600DA0706 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E129A21421C9550600DA0706 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E129A21321C9550600DA0706 /* Drawing and Custom Views.app */,
+				E129A22721C9550800DA0706 /* Drawing and Custom ViewsTests.xctest */,
+				E129A23221C9550800DA0706 /* Drawing and Custom ViewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E129A21521C9550600DA0706 /* Drawing and Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				E129A21621C9550600DA0706 /* AppDelegate.swift */,
+				E129A21821C9550600DA0706 /* RootViewController.swift */,
+				E129A24421C955DA00DA0706 /* AboutViewController.swift */,
+				E129A24621C955F400DA0706 /* SimpleDrawViewController.swift */,
+				E129A24821C95F2800DA0706 /* ErrorHandlingViewController.swift */,
+				E129A24A21CC1EBF00DA0706 /* CustomView.swift */,
+				E129A21A21C9550600DA0706 /* Main.storyboard */,
+				E129A21D21C9550800DA0706 /* Assets.xcassets */,
+				E129A21F21C9550800DA0706 /* LaunchScreen.storyboard */,
+				E129A22221C9550800DA0706 /* Info.plist */,
+			);
+			path = "Drawing and Custom Views";
+			sourceTree = "<group>";
+		};
+		E129A22A21C9550800DA0706 /* Drawing and Custom ViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E129A22B21C9550800DA0706 /* Drawing_and_Custom_ViewsTests.swift */,
+				E129A22D21C9550800DA0706 /* Info.plist */,
+			);
+			path = "Drawing and Custom ViewsTests";
+			sourceTree = "<group>";
+		};
+		E129A23521C9550800DA0706 /* Drawing and Custom ViewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E129A23621C9550800DA0706 /* Drawing_and_Custom_ViewsUITests.swift */,
+				E129A23821C9550800DA0706 /* Info.plist */,
+			);
+			path = "Drawing and Custom ViewsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E129A21221C9550600DA0706 /* Drawing and Custom Views */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E129A23B21C9550800DA0706 /* Build configuration list for PBXNativeTarget "Drawing and Custom Views" */;
+			buildPhases = (
+				E129A20F21C9550600DA0706 /* Sources */,
+				E129A21021C9550600DA0706 /* Frameworks */,
+				E129A21121C9550600DA0706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drawing and Custom Views";
+			productName = "Drawing and Custom Views";
+			productReference = E129A21321C9550600DA0706 /* Drawing and Custom Views.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E129A22621C9550800DA0706 /* Drawing and Custom ViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E129A23E21C9550800DA0706 /* Build configuration list for PBXNativeTarget "Drawing and Custom ViewsTests" */;
+			buildPhases = (
+				E129A22321C9550800DA0706 /* Sources */,
+				E129A22421C9550800DA0706 /* Frameworks */,
+				E129A22521C9550800DA0706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E129A22921C9550800DA0706 /* PBXTargetDependency */,
+			);
+			name = "Drawing and Custom ViewsTests";
+			productName = "Drawing and Custom ViewsTests";
+			productReference = E129A22721C9550800DA0706 /* Drawing and Custom ViewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E129A23121C9550800DA0706 /* Drawing and Custom ViewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E129A24121C9550800DA0706 /* Build configuration list for PBXNativeTarget "Drawing and Custom ViewsUITests" */;
+			buildPhases = (
+				E129A22E21C9550800DA0706 /* Sources */,
+				E129A22F21C9550800DA0706 /* Frameworks */,
+				E129A23021C9550800DA0706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E129A23421C9550800DA0706 /* PBXTargetDependency */,
+			);
+			name = "Drawing and Custom ViewsUITests";
+			productName = "Drawing and Custom ViewsUITests";
+			productReference = E129A23221C9550800DA0706 /* Drawing and Custom ViewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E129A20B21C9550600DA0706 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Robert Kleniewski";
+				TargetAttributes = {
+					E129A21221C9550600DA0706 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E129A22621C9550800DA0706 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E129A21221C9550600DA0706;
+					};
+					E129A23121C9550800DA0706 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E129A21221C9550600DA0706;
+					};
+				};
+			};
+			buildConfigurationList = E129A20E21C9550600DA0706 /* Build configuration list for PBXProject "Drawing and Custom Views" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E129A20A21C9550600DA0706;
+			productRefGroup = E129A21421C9550600DA0706 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E129A21221C9550600DA0706 /* Drawing and Custom Views */,
+				E129A22621C9550800DA0706 /* Drawing and Custom ViewsTests */,
+				E129A23121C9550800DA0706 /* Drawing and Custom ViewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E129A21121C9550600DA0706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E129A22121C9550800DA0706 /* LaunchScreen.storyboard in Resources */,
+				E129A21E21C9550800DA0706 /* Assets.xcassets in Resources */,
+				E129A21C21C9550600DA0706 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E129A22521C9550800DA0706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E129A23021C9550800DA0706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E129A20F21C9550600DA0706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E129A24721C955F400DA0706 /* SimpleDrawViewController.swift in Sources */,
+				E129A24521C955DA00DA0706 /* AboutViewController.swift in Sources */,
+				E129A21921C9550600DA0706 /* RootViewController.swift in Sources */,
+				E129A24B21CC1EBF00DA0706 /* CustomView.swift in Sources */,
+				E129A21721C9550600DA0706 /* AppDelegate.swift in Sources */,
+				E129A24921C95F2800DA0706 /* ErrorHandlingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E129A22321C9550800DA0706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E129A22C21C9550800DA0706 /* Drawing_and_Custom_ViewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E129A22E21C9550800DA0706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E129A23721C9550800DA0706 /* Drawing_and_Custom_ViewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E129A22921C9550800DA0706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E129A21221C9550600DA0706 /* Drawing and Custom Views */;
+			targetProxy = E129A22821C9550800DA0706 /* PBXContainerItemProxy */;
+		};
+		E129A23421C9550800DA0706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E129A21221C9550600DA0706 /* Drawing and Custom Views */;
+			targetProxy = E129A23321C9550800DA0706 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E129A21A21C9550600DA0706 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E129A21B21C9550600DA0706 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E129A21F21C9550800DA0706 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E129A22021C9550800DA0706 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E129A23921C9550800DA0706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E129A23A21C9550800DA0706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E129A23C21C9550800DA0706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G2QN8TBWW;
+				INFOPLIST_FILE = "Drawing and Custom Views/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kleniu.Drawing-and-Custom-Views";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E129A23D21C9550800DA0706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G2QN8TBWW;
+				INFOPLIST_FILE = "Drawing and Custom Views/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kleniu.Drawing-and-Custom-Views";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E129A23F21C9550800DA0706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G2QN8TBWW;
+				INFOPLIST_FILE = "Drawing and Custom ViewsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kleniu.Drawing-and-Custom-ViewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drawing and Custom Views.app/Drawing and Custom Views";
+			};
+			name = Debug;
+		};
+		E129A24021C9550800DA0706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G2QN8TBWW;
+				INFOPLIST_FILE = "Drawing and Custom ViewsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kleniu.Drawing-and-Custom-ViewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drawing and Custom Views.app/Drawing and Custom Views";
+			};
+			name = Release;
+		};
+		E129A24221C9550800DA0706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G2QN8TBWW;
+				INFOPLIST_FILE = "Drawing and Custom ViewsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kleniu.Drawing-and-Custom-ViewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Drawing and Custom Views";
+			};
+			name = Debug;
+		};
+		E129A24321C9550800DA0706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G2QN8TBWW;
+				INFOPLIST_FILE = "Drawing and Custom ViewsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kleniu.Drawing-and-Custom-ViewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Drawing and Custom Views";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E129A20E21C9550600DA0706 /* Build configuration list for PBXProject "Drawing and Custom Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E129A23921C9550800DA0706 /* Debug */,
+				E129A23A21C9550800DA0706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E129A23B21C9550800DA0706 /* Build configuration list for PBXNativeTarget "Drawing and Custom Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E129A23C21C9550800DA0706 /* Debug */,
+				E129A23D21C9550800DA0706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E129A23E21C9550800DA0706 /* Build configuration list for PBXNativeTarget "Drawing and Custom ViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E129A23F21C9550800DA0706 /* Debug */,
+				E129A24021C9550800DA0706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E129A24121C9550800DA0706 /* Build configuration list for PBXNativeTarget "Drawing and Custom ViewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E129A24221C9550800DA0706 /* Debug */,
+				E129A24321C9550800DA0706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E129A20B21C9550600DA0706 /* Project object */;
+}
