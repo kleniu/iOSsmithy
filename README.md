@@ -1,6 +1,15 @@
 # iOSsmithy
 bunch of iOS tests
 
+## iOS012 - Multitouch
+Creating custom View, Controller and Model. Custom View has rounded corners and single sub view based on UILabel. Custom View responses on Tap, Pinch and Swipe gestures. 
+
+topics:
+- clipping the view to get rounded corners in code using UIBezierPath
+- clipping subviews to stay in bounds of parent view using clipsToBounds property of parent view
+- responding to swipe gestures using code only - UISwipeGestureRecognizer
+- responding to Tap and Pinch gestures using storyboard and @IBAction
+
 ## iOS011 - Drawing and custom views
 Using UIView to build custom view for: drawing lines and arcs with Bezier path, placing subviews like UILabel, drawing Images. Some minor code examples describing error handling. Preparing custom views to be displayed on storyboard. Adding attributes to be changed directly from the storyboard.
 

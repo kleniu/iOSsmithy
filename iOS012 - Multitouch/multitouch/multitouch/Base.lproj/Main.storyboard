@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MyViewController" customModule="multitouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="ofe-qG-JDy" customClass="MyView" customModule="multitouch" customModuleProvider="target">
+                                <rect key="frame" x="16" y="283" width="343" height="256"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ofe-qG-JDy" secondAttribute="height" multiplier="343:256" id="70e-bo-Olr"/>
+                                    <constraint firstAttribute="width" priority="750" constant="343" id="UM0-Ns-9Pk"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="mySize">
+                                        <real key="value" value="120"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Jyw-9E-JpH" appends="YES" id="VsK-b7-zG6"/>
+                                    <outletCollection property="gestureRecognizers" destination="seR-9e-fj6" appends="YES" id="gcr-ys-u8d"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ofe-qG-JDy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="beS-jG-kgX"/>
+                            <constraint firstItem="ofe-qG-JDy" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="fEb-id-wuj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ofe-qG-JDy" secondAttribute="trailing" constant="16" id="gdy-l8-icZ"/>
+                            <constraint firstItem="ofe-qG-JDy" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="p17-aU-ZJb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="myView" destination="ofe-qG-JDy" id="Qr8-af-e2H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="Jyw-9E-JpH">
+                    <connections>
+                        <action selector="resizeFace:" destination="BYZ-38-t0r" id="qf4-PA-qw9"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <tapGestureRecognizer id="seR-9e-fj6">
+                    <connections>
+                        <action selector="hideFace:" destination="BYZ-38-t0r" id="Ffr-cp-ybZ"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="133.74384236453201"/>
+        </scene>
+    </scenes>
+</document>
