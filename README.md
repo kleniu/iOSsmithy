@@ -1,6 +1,16 @@
 # iOSsmithy
 bunch of iOS tests
 
+## iOS013 - UITabBarController, UISplitViewController, UINavigationController
+Preparing app for displaying on iPhones and iPads with SplitViewController. Master view is populated by TableView and the Detail view shows only when item from master view has been clicked.
+
+topics:
+ - TabBarController over SplitViewController over NavigationController
+ - passing Model objects (by reference) between ViewControllers
+ - refreshing TableView from master by Detailed View Controller
+ - starting up with MasterView on iPhones by using splitViewController(UISplitViewController: UIViewController: UIViewController) method
+ - using preferredDisplayMode to show master on iPads
+
 ## iOS012 - Multitouch
 Creating custom View, Controller and Model. Custom View has rounded corners and single sub view based on UILabel. Custom View responses on Tap, Pinch and Swipe gestures. 
 
