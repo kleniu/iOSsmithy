@@ -1,6 +1,13 @@
 # iOSsmithy
 bunch of iOS tests
 
+## iOS014 - UISplitViewController sample
+Boilerplate for multiple Detail Windows in SPlit View
+
+topics:
+- NavigationController for setting title in DetailWindows
+- works on all type of devices iPhone/iPad
+
 ## iOS013 - UITabBarController, UISplitViewController, UINavigationController
 Preparing app for displaying on iPhones and iPads with SplitViewController. Master view is populated by TableView and the Detail view shows only when item from master view has been clicked.
 
